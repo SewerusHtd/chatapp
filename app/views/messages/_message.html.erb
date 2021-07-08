@@ -3,6 +3,7 @@
     <%= message.content %>
   </p>
   <p class="message-user">
-    <%= mail_to message.user.email %>
+    <%= mail_to message.user.email %>,
+    <%= message.created_at.localtime.strftime("%d.%m.%Y %H:%M") %>
   </p>
 </div>

@@ -1,0 +1,15 @@
+.message {
+  padding: 5px;
+  box-shadow: 0 5px 10px lightblue, 0 5px 5px lightblue;
+
+  //border: 1px white dashed;
+  .message-content {
+    border-bottom: 1px
+  }
+
+  .message-user {
+    font-size: 12px;
+    margin: none;
+    padding: none;
+  }
+}
