@@ -29,6 +29,9 @@ gem 'jbuilder', '~> 2.5'
 # Use jQuery
 gem 'jquery-rails'
 
+# Use Devise for user auth
+gem 'devise'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

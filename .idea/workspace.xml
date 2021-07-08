@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4c1f7b3-670a-4365-911e-a670e2340e01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/room.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/rooms.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/channels/room_channel.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jobs/message_broadcast_job.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/message.rb" afterDir="false" />
+    <list default="true" id="e4c1f7b3-670a-4365-911e-a670e2340e01" name="Default Changelist" comment="use devise">
+      <change afterPath="$PROJECT_DIR$/app/models/admin.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/client.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20210708202850_devise_create_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20210708203445_add_type_to_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20210708203537_add_user_to_messages.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/chatapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chatapp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cable.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/message.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/message.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625764832616</updated>
-      <workItem from="1625764837622" duration="4303000" />
+      <workItem from="1625764837622" duration="5210000" />
     </task>
     <task id="LOCAL-00001" summary="new rails app">
       <created>1625764944696</created>
@@ -163,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625765673973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add room_channel">
+      <created>1625775934406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625775934406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new rails app" />
     <MESSAGE value="add rooms_controller, message_model, jquery gem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add rooms_controller, message_model, jquery gem" />
+    <MESSAGE value="add room_channel" />
+    <option name="LAST_COMMIT_MESSAGE" value="add room_channel" />
   </component>
 </project>
