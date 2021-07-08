@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c1f7b3-670a-4365-911e-a670e2340e01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/rooms_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/messages/_message.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/rooms/show.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20210708172557_create_messages.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/chatapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chatapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/room.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/rooms.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/channels/room_channel.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/jobs/message_broadcast_job.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/message.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cable.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/cable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +30,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Rails.Development: chatapp">
     <configuration name="Development: chatapp" type="RailsRunConfigurationType" factoryName="Rails">
@@ -145,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625764832616</updated>
-      <workItem from="1625764837622" duration="770000" />
+      <workItem from="1625764837622" duration="4303000" />
     </task>
     <task id="LOCAL-00001" summary="new rails app">
       <created>1625764944696</created>
@@ -154,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625764944696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add rooms_controller, message_model, jquery gem">
+      <created>1625765673973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625765673973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new rails app" />
-    <option name="LAST_COMMIT_MESSAGE" value="new rails app" />
+    <MESSAGE value="add rooms_controller, message_model, jquery gem" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rooms_controller, message_model, jquery gem" />
   </component>
 </project>
