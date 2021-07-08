@@ -16,6 +16,11 @@ received: (data) ->
 #speak function
 $(document).on 'keypress', '[data-behavior~=room_speaker]', (event) ->
   if event.keyCode is 13 #return/enter = send
-    App.room.speak event.target.value
-    event.target.value = ''
-    event.preventDefault()
+    if event.target.value == 'clear'
+      $('#messages').html("")
+      event.target.value = ''
+      event.preventDefault()
+    else
+      App.room.speak event.target.value
+      event.target.value = ''
+      event.preventDefault()

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c1f7b3-670a-4365-911e-a670e2340e01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/messages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/rooms.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/messages/_message.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/messages/_message.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/rooms/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rooms/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/room.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/room.coffee" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625764832616</updated>
-      <workItem from="1625764837622" duration="8043000" />
+      <workItem from="1625764837622" duration="8322000" />
     </task>
     <task id="LOCAL-00001" summary="new rails app">
       <created>1625764944696</created>
@@ -182,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625778299178</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add style">
+      <created>1625779633697</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625779633697</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +196,7 @@
     <MESSAGE value="add room_channel" />
     <MESSAGE value="add users, clients, admins" />
     <MESSAGE value="action_cable auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="action_cable auth" />
+    <MESSAGE value="add style" />
+    <option name="LAST_COMMIT_MESSAGE" value="add style" />
   </component>
 </project>
