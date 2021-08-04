@@ -1,0 +1,4 @@
+<div class="message">
+  <%= render MessageContentComponent.new(mcontent: @message.content) %>
+  <%= render MessageUserComponent.new(email: @message.user.email, time: @message.created_at) %>
+</div>
