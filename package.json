@@ -1,5 +1,24 @@
 {
   "name": "chatapp",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/actioncable": "^6.1.4",
+    "@rails/activestorage": "^6.1.4",
+    "@rails/ujs": "^6.1.4",
+    "@rails/webpacker": "^5.4.0",
+    "coffee": "^5.4.0",
+    "coffee-loader": "^3.0.0",
+    "coffeescript": "^2.5.1",
+    "jquery": "^3.6.0",
+    "stimulus_reflex": "3.4.1",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "/Users/sewerynpanek/Projects/repo/chatapp.git",
+  "author": "SewerusHTD <seweryn.panek@htdevelopers.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
 }
