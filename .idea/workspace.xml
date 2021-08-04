@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4c1f7b3-670a-4365-911e-a670e2340e01" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/room.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/channels/room.coffee" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +139,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625764832616</updated>
-      <workItem from="1625764837622" duration="8322000" />
+      <workItem from="1625764837622" duration="11590000" />
     </task>
     <task id="LOCAL-00001" summary="new rails app">
       <created>1625764944696</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625779633697</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add clear in coffee script">
+      <created>1625779948147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625779948147</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +203,7 @@
     <MESSAGE value="add users, clients, admins" />
     <MESSAGE value="action_cable auth" />
     <MESSAGE value="add style" />
-    <option name="LAST_COMMIT_MESSAGE" value="add style" />
+    <MESSAGE value="add clear in coffee script" />
+    <option name="LAST_COMMIT_MESSAGE" value="add clear in coffee script" />
   </component>
 </project>
